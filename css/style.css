@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #19a2ae;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #2d3248;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0 20px;
+  padding: 0;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+hr {
+  margin: 0;
+  color: #6a6f81;
+}
+
+p {
+  font-size: 18px;
+  color: #969696;
+  font-weight: 400;
+  margin: 0;
+}
+
+.top-circle {
+  position: absolute;
+  height: 150vh;
+  width: auto;
+  top: -80vh;
+  left: -50vw;
+}
+
+.bottom-circle {
+  position: absolute;
+  height: 150vh;
+  width: auto;
+  bottom: -80vh;
+  right: -50vw;
+}
+.container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 350px;
+  position: relative;
+  overflow: hidden;
+  margin: 25vh auto 50px;
+}
+
+.top {
+  height: 150px;
+  background-image: url(../images/bg-pattern-card.svg);
+  background-size: cover;
+}
+
+.middle {
+  height: 150px;
+  margin: 0;
+}
+
+.bottom {
+  height: 150px;
+  margin: 0;
+}
+
+.photo {
+  border-radius: 100%;
+  border: solid #ffffff 5px;
+  margin-top: 97px;
+}
+
+.item {
+  font-weight: 700;
+}
+
+.stat {
+  display: inline-block;
+}
+
+.name {
+  margin-top: 80px;
+}
+
+.age {
+  font-weight: 400;
+  color: #969696;
+}
+
+.value {
+  color: #969696;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
