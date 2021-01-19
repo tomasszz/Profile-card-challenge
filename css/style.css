@@ -1,112 +1,86 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
   text-align: center;
   background-color: #19a2ae;
   font-family: 'Kumbh Sans', sans-serif;
   color: #2d3248;
-  overflow: hidden;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  margin: 0 20px;
-  padding: 0;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 1.2rem;
   font-weight: 700;
+  margin: 10px 0;
+}
+
+h2 {
+  color: #6a6f81;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+p{
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 10px 0;
 }
 
 hr {
-  margin: 0;
-  color: #6a6f81;
-}
-
-p {
-  font-size: 18px;
-  color: #969696;
-  font-weight: 400;
-  margin: 0;
-}
-
-.top-circle {
-  position: absolute;
-  height: 150vh;
-  width: auto;
-  top: -80vh;
-  left: -50vw;
-}
-
-.bottom-circle {
-  position: absolute;
-  height: 150vh;
-  width: auto;
-  bottom: -80vh;
-  right: -50vw;
-}
-.container {
-  background-color: #ffffff;
-  border-radius: 20px;
-  width: 350px;
-  position: relative;
-  overflow: hidden;
-  margin: 25vh auto 50px;
-}
-
-.top {
-  height: 150px;
-  background-image: url(../images/bg-pattern-card.svg);
-  background-size: cover;
-}
-
-.middle {
-  height: 150px;
-  margin: 0;
-}
-
-.bottom {
-  height: 150px;
-  margin: 0;
-}
-
-.photo {
-  border-radius: 100%;
-  border: solid #ffffff 5px;
-  margin-top: 97px;
-}
-
-.item {
-  font-weight: 700;
-}
-
-.stat {
-  display: inline-block;
-}
-
-.name {
-  margin-top: 80px;
+  border-top: 1px solid #969696;
+  margin: 20px 0;
 }
 
 .age {
+  color: #969696;
   font-weight: 400;
-  color: #969696;
 }
 
-.value {
-  color: #969696;
+.container {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+.card {
+  display: flex;
+  flex-flow: column;
+  min-height: 150px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
 }
 
-.attribution a {
-  color: #3e52a3;
+.top {
+  min-height: 50px;
+  width: 100%;
+  background-image: url(../images/bg-pattern-card.svg);
+  margin-bottom: 80px;
+}
+
+.middle {
+  min-height: 50px;
+  display: flex;
+  flex-flow: column;
+}
+
+.photo {
+  border: solid 5px #fff;
+  border-radius: 100%;
+  position: relative;
+  top: 53px;
+}
+
+.bottom {
+  min-height: 50px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
 }
