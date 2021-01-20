@@ -31,13 +31,17 @@ p {
 }
 
 hr {
-  border-top: 1px solid #969696;
+  border-top: 1px solid #d6d6d6;
   margin: 20px 0;
 }
 
 .age {
   color: #969696;
   font-weight: 400;
+}
+
+.main-container {
+  position: relative;
 }
 
 .container {
@@ -47,11 +51,15 @@ hr {
   justify-content: center;
 }
 
+.attribution {
+  position: relative;
+}
+
 .card {
   display: flex;
   flex-flow: column;
   min-height: 150px;
-  width: 300px;
+  width: 350px;
   border-radius: 20px;
   background-color: #fff;
   position: relative;
@@ -87,23 +95,21 @@ hr {
 }
 
 .top-circle {
-  width: 1200px;
-  height: 1200px;
+  width: 800px;
+  height: 800px;
   background-size: 100%;
   background-image: url(../images/bg-pattern-top.svg);
   position: absolute;
-  top:-600px;
-  left:-350px;
-  z-index: -1;
+  top: -400px;
+  left: -120px;
 }
 
 .bottom-circle {
-  width: 1200px;
-  height: 1200px;
+  width: 800px;
+  height: 800px;
   background-size: 100%;
   background-image: url(../images/bg-pattern-bottom.svg);
   position: absolute;
-  bottom:-600px;
-  right: -350px;
-  z-index: -1;
+  bottom: -450px;
+  right: -130px;
 }
